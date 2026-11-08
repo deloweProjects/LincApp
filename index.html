@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linc - your phone and PC, together</title>
+<meta name="description" content="Linc connects your Android phone to your Windows PC: notifications, messages, calls, clipboard, files and screens. Free.">
+<style>
+  :root { --bg: #ffffff; --ink: #111111; --soft: #5a5a5a; --card: #f2f2f2; --btn: #111111; --btn-ink: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0a0a0a; --ink: #f2f2f2; --soft: #b5b5b5; --card: #1a1a1a; --btn: #f2f2f2; --btn-ink: #111111; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  .mark { width: 64px; height: 64px; border-radius: 50%; background: var(--btn); color: var(--btn-ink);
+          display: grid; place-items: center; font-size: 34px; font-weight: 600; }
+  h1 { font-size: 40px; margin: 20px 0 8px; letter-spacing: -0.5px; }
+  .lead { color: var(--soft); font-size: 20px; margin: 0 0 32px; }
+  .get { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-bottom: 12px; }
+  .get a { display: block; padding: 18px 20px; border-radius: 18px; background: var(--btn); color: var(--btn-ink);
+           text-decoration: none; font-weight: 600; font-size: 19px; }
+  .get a span { display: block; font-weight: 400; font-size: 14px; opacity: .75; }
+  .small { color: var(--soft); font-size: 14px; margin: 0 0 40px; }
+  .small a { color: inherit; }
+  ol { padding-left: 22px; } li { margin: 6px 0; }
+  .features { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .features div { background: var(--card); border-radius: 18px; padding: 16px 18px; }
+  .features b { display: block; margin-bottom: 4px; }
+  footer { color: var(--soft); font-size: 14px; margin-top: 48px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">L</div>
+  <h1>Your phone and PC, together.</h1>
+  <p class="lead">Notifications, messages, calls, clipboard, files and screens between your Android phone and Windows PC. Free.</p>
+
+  <div class="get">
+    <a href="https://github.com/deloweProjects/LincApp/releases/latest">Get Linc for Windows<span>Download the setup and run it</span></a>
+    <a href="https://github.com/deloweProjects/LincApp/releases/latest">Get Linc for Android<span>Download the app and open it</span></a>
+  </div>
+  <p class="small">On the download page, the Windows file is <b>Linc-Setup-….exe</b> and the phone file ends in <b>.apk</b>. If Windows says it protected your PC, choose More info, then Run anyway.</p>
+
+  <h2>Three steps</h2>
+  <ol>
+    <li>Install Linc on your PC.</li>
+    <li>Install Linc on your phone.</li>
+    <li>On the PC choose <b>Add a phone</b> and point your phone's camera at the code. That's it.</li>
+  </ol>
+
+  <h2>What it does</h2>
+  <div class="features">
+    <div><b>Notifications</b>Your phone's notifications on the PC, with reply.</div>
+    <div><b>Messages and calls</b>Text and see calls from the PC.</div>
+    <div><b>One clipboard</b>Copy on one, paste on the other.</div>
+    <div><b>Files</b>Send and browse files either way.</div>
+    <div><b>Your phone on the PC</b>Its screen in a window, with sound and touch.</div>
+    <div><b>Your PC on the phone</b>See and control it from your hand.</div>
+    <div><b>Linc Bubble</b>What's going on, one click away on the desktop.</div>
+    <div><b>Connects by itself</b>Wi-Fi, cable or hotspot, and keeps going between them.</div>
+  </div>
+
+  <footer>
+    News and help on Telegram: <a href="https://t.me/LincApp">t.me/LincApp</a> · Made by deloweProjects
+  </footer>
+</main>
+</body>
+</html>
