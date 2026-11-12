@@ -10,8 +10,7 @@ phone.
 
 1. **On your PC:** download **[Linc for Windows](https://github.com/deloweProjects/LincApp/releases/latest)**
    (`Linc-Setup-….exe`) and run it.
-2. **On your phone:** download **[Linc for Android](https://github.com/deloweProjects/LincApp/releases/latest)**
-   (`Linc-….apk`) and open it.
+2. **On your phone:** get **[Linc on Google Play](https://play.google.com/store/apps/details?id=com.delowe.linc)** and open it.
 3. Open Linc on the PC and choose **Add a phone**. Point your phone's camera at the code it shows. Done.
 
 Or go to **[deloweprojects.github.io/LincApp](https://deloweprojects.github.io/LincApp/)** and tap the big buttons.
