@@ -57,3 +57,15 @@ the apps read; the source code is kept elsewhere.
 - **Android is in a Google Play closed test.** The Android buttons open the sign-up form; testers then
   install from Google Play. The page does not link the APK.
 - **The pictures are real captures** of the apps, with personal details replaced by demo content.
+
+## What is in this repository
+
+| Path | Use |
+|---|---|
+| `index.html`, `privacy.html`, `img/`, `linc-icon.png`, `social-preview.png` | the Linc landing page and its pictures (GitHub Pages) |
+| `update.json` | the update manifest installed copies of Linc read |
+| `README.md`, `LICENSE`, `.nojekyll` | this page, the licence, and GitHub Pages' "no Jekyll" switch |
+| GitHub Releases (not files) | the installers, APK and checksums for each version |
+
+The map of the whole workspace (all three repositories and every folder) is `WORKSPACE.md` in the private
+Linc code repository.
