@@ -44,3 +44,16 @@ to each other directly. Check what you download against `CHECKSUMS.txt` on each 
 
 Linc is made by **deloweProjects**. This repository holds the downloads and the update information
 the apps read; the source code is kept elsewhere.
+
+## How the pieces connect
+
+- **This repo is the public face of Linc.** It holds the landing page (`index.html`, `img/`,
+  `privacy.html`), the update manifest (`update.json`, read by installed copies of Linc) and the GitHub
+  Releases that carry the installers and checksums. The code is in a private repository.
+- **The landing page lives in two places, kept identical:** here (GitHub Pages,
+  https://deloweprojects.github.io/LincApp/) and in `deloweProjects/sunflower` under `frontend/linc/`
+  (Vercel, https://linc.sunflower.co.zw). The home page https://sunflower.co.zw lists Linc and opens
+  the Linc page with a short transition.
+- **Android is in a Google Play closed test.** The Android buttons open the sign-up form; testers then
+  install from Google Play. The page does not link the APK.
+- **The pictures are real captures** of the apps, with personal details replaced by demo content.
