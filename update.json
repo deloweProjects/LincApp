@@ -35,9 +35,5 @@
   "desktop": {
     "url": "https://github.com/deloweProjects/LincApp/releases/download/v1.0.0.19/Linc-Setup-1.0.0.19.exe",
     "sha256": "C8AB667C0A1457C7D985983DB8B5AD572546F1E2866D49D61D2E87CCA4069997"
-  },
-  "android": {
-    "url": "https://github.com/deloweProjects/LincApp/releases/download/v1.0.0.19/Linc-Companion-1.0.0.19-2026-11-10.apk",
-    "sha256": "A5F7958631FC3A02AB2D36041B8C98D5E1FD14D0F9F7837ADD71572596EA01EB"
   }
 }
